@@ -103,7 +103,7 @@ const Appointments = (props) => {
       console.log(e)
     })
   }
-  
+
   const setAndEditModal = (item) => {
     console.log('item', item);
      var names = item.name.split(' ')
@@ -156,7 +156,7 @@ const Appointments = (props) => {
       setEditVisible(false)
       console.log(e)
     })
-    
+
   }
 
   return (
